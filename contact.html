@@ -1,19 +1,56 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<title>Stacy Marshall's Portfolio</title>
 	</head>
 	<body>
-		<h1>Stacy Marshall</h1>
+		<div class="heading">
+			<h1>Stacy Marshall</h1>
+		</div>
+
+		<div class="otherPages"
+			<a href="index.html">About</a>
+			<a href="portfolio.html">Portfolio</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		
 		<h2>Contact</h2>
-		<form>
-			Name<br>
-			<input type="text" name="nameInput">
-			<br>
-			Email<br>
-			<input type="text" name="emailAddress">
-			<br>
-			Message<br>
-			<input type="text" name="messageInfo"
+		<form action="mailto:stacy.marshall@northwestern.edu" method="post" enctype="text/plain">
+			<div class="contactForm">
+				
+				Name<br>
+				<input type="text" name="nameInput">
+				<br>
+			
+				Email<br>
+				<input type="text" name="emailAddress">
+				<br>
+			
+				Message<br>
+				<input type="text" name="messageInfo">
+				<br>
+			
+				<input type="submit" value="Submit">
+
+			</div>
+
+			<div class="connectWithMe">
+				<h3>Connect with Me</h3>
+					<a href="https://github.com/Sam-Marshall" target="_blank">
+						<img src="assets/images/GitHubLogo.png" height=35px width= 35px>
+					</a>
+					<a href="https://www.linkedin.com/in/stacy-marshall/" target="_blank">
+						<img src="assets/images/LinkedinLogo.png" height=35px width= 35px>
+					</a>
+					<a href="http://stackoverflow.com/users/edit/7455212" target="_blank">
+						<img src="assets/images/StackOverflow.png" height=35px width= 35px>
+					</a>
+
+			</div>
+			<footer>
+				<p>@ Copyright 2017 Stacy Marshall</p>
+			</footer>
 		</form>
 	</body>
 </html>

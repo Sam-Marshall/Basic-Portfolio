@@ -1,0 +1,17 @@
+h1 {
+	color: white;
+	background: #4aaaa5;
+}
+
+footer{
+	color: white;
+	background: #666666;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
