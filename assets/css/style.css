@@ -74,8 +74,10 @@ h1 {
 	border-radius: 10px;
 }
 .socialMedia{
-	height: 50px;
-	width: 50px;
+	height: 55px;
+	width: 55px;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 
 a:link {
