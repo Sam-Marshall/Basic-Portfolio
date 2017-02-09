@@ -26,12 +26,13 @@ h1 {
 	margin-left: 50px;
 	position: absolute;
 	top: -13px;
+	left: -28px;
 
 }
 
 .otherPages {
 	padding: 45px;
-	max-width: 270px;
+	width: 270px;
 	text-align: center;
 	position: absolute;
 	top: -9px;
@@ -48,36 +49,27 @@ h1 {
 }
 
 #leftContent {
-	max-width: 650px;
+	width: 650px;
 	padding: 30px;
 	float: left;
 	background-color: #ffffff;
 	margin-top: 25px;
 	margin-right: 5px;
 	margin-bottom: 25px;
-	margin-left: 50px;
-	/*position: relative;*/
+	margin-left: 20px;
 }
 
 #connectWithMe {
 	float: left;
-	max-width: 270px;
+	width: 270px;
 	background-color: #ffffff;
 	text-align: center;
 	margin-top: 25px;
-	margin-right: 5px;
+	margin-right: 0px;
 	margin-bottom: 25px;
-	margin-left: 20px;
-	padding: 20px;
+	margin-left: 15px;
+	padding: 15px;
 }
-
-/*.verticalLine {
-	width: 1px;
-	background-color: #777777;
-	height: 18px;
-	opacity: 0.2;
-	float: right;
-}*/
 
 .mainContent {
 	/*display: inline-block;*/
@@ -96,7 +88,7 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-		color: #4aaaa5;
+	color: #4aaaa5;
 }
 
 p, a, footer, form {
@@ -120,13 +112,14 @@ footer {
 	border-right: none;
 	border-left: none;
 	border-color: #4aaaa5;
-	clear: left;
+	clear: both;
 	text-align: center;
 	width: 960px;
 	padding: 25px;
 }
 
 /*Contact Form Style*/
+
 .textWidth {
 	width: 600px;
 }
