@@ -17,6 +17,7 @@
 	position: relative;
 	overflow: auto;
 	margin-top: 0px;
+	border-radius: 5px;
 }
 
 h1 {
@@ -57,6 +58,7 @@ h1 {
 	margin-right: 5px;
 	margin-bottom: 25px;
 	margin-left: 20px;
+	border-radius: 10px;
 }
 
 #connectWithMe {
@@ -69,10 +71,7 @@ h1 {
 	margin-bottom: 25px;
 	margin-left: 15px;
 	padding: 15px;
-}
-
-.mainContent {
-	/*display: inline-block;*/
+	border-radius: 10px;
 }
 
 a:link {
@@ -96,8 +95,11 @@ p, a, footer, form {
 	color: #777777;
 }
 
+a:hover{
+	opacity: 0.8;
+}
+
 hr {
-	color: #777777;
 	background-color: #777777;
 	height: 1px;
 	opacity: 0.2;
@@ -115,7 +117,9 @@ footer {
 	clear: both;
 	text-align: center;
 	width: 960px;
+	height: 75px;
 	padding: 25px;
+	border-radius: 5px;
 }
 
 /*Contact Form Style*/
@@ -141,7 +145,7 @@ input[type=submit] {
 	font-size: 125%;
 }
 
-input[type=text]{
+input[type=text], textarea[type=text]{
 	font-size: 110%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -151,7 +155,7 @@ input[type=text]{
 .profilePicture {
 	float: left;
 	margin: 20px;
-	border-radius: 45px;
+	border-radius: 15px;
 	width: 150px;
 	height: 250px;
 }
@@ -161,6 +165,11 @@ input[type=text]{
 .layered {
 	position: relative;
 	display: inline-block;
+	overflow: auto;
+}
+
+.layered:hover{
+	transform: rotate(-5deg);
 }
 
 .boxLink {
@@ -188,5 +197,6 @@ input[type=text]{
 	margin-bottom: 25px;
 	margin-top: 15px;
 	height: 187.5px;
+	border-radius: 5px;
 }
 
